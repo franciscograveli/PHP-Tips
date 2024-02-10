@@ -1,0 +1,27 @@
+{
+    "name": "franciscograveli/phptips",
+    "description": "Curso Robson V. lEITE",
+    "minimum-stability": "stable",
+    "authors": [
+        {
+            "name": "Francisco Carlos",
+            "email": "franciscograveli@hotmail.com",
+            "homepage": "https://www.linkedin.com/in/francisco-carlos-609192142/",
+            "role": "Developer"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "souce/"
+        },
+        "files": [
+            "souce/Config.php"
+        ]
+    },
+    "require": {
+        "phpmailer/phpmailer": "6.9.*"
+    }
+}
